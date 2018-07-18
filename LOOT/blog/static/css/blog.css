@@ -1,60 +1,56 @@
 body {
-    padding-left: 15px;
+    background-color: black;
 }
 
-
-h1 a {
-    color: #FCA205;
-    font-family: 'Lobster';
+.col-lg-6 {
+color: white;
+background-color: black;
+padding-top: 140px;
 }
 
-.page-header {
-    background-color: #ff9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+.nav-link {
+    color: white
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
+nav a, h6  {
+    color: white;
 }
 
-.content {
-    margin-left: 40px;
+.material-icons {
+    color: white;
+}
+h5, h5 a {
+    color: yellow;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+div.rounded {
+padding-left: 10px;
+color: black;
+background-color: #404040;
 }
 
-.date {
-    color: #828282;
+div.post {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-style: dotted;
+    border-color: #484848;
+
 }
 
-.save {
-    float: right;
+div.comment {
+    border-style: solid;
+    border-color: #404040;
+    padding: 10px;
 }
 
-.post-form textarea, .post-form input {
+footer {
+    color: white;
     width: 100%;
+
+    background-color: #484848;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-}
+.break-word {
+      word-wrap: break-word;
+   }
 
-.post {
-    margin-bottom: 70px;
-}
-
-.post h1 a, .post h1 a:visited {
-    color: #000000;
-}
-
-.comment {
-    margin: 20px 0px 20px 20px;
-}

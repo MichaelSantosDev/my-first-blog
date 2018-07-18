@@ -14,7 +14,7 @@ from .views import comment_delete
 
 
 urlpatterns = [
-    path('post_list/', post_list, name="post_list"),
+    path('', post_list, name="post_list"),
     path('post/<int:pk>/', post_detail, name='post_detail'),
     path('post/new', post_new, name='post_new'),
     path('post/<int:pk>/edit/', post_edit, name='post_edit'),
